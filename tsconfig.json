@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Usa padrão moderno do JavaScript
+    "module": "commonjs", // Para rodar no Node
+    "rootDir": "./src", // Onde está nosso código
+    "outDir": "./dist", // Para onde vai o código compilado
+    "strict": true, // Ajuda a evitar erros
+    "esModuleInterop": true // Permite usar "import" de forma simples
+  }
+}
